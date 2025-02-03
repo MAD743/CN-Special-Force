@@ -6,19 +6,29 @@ body {
     background-color: #f4f4f4;
 }
 
+header {
+    max-width: 700px;
+    border: 10px solid green;
+    padding: 10px;
+    margin: 30px auto;
+}
+
 .container {
     margin-top: 20vh;
+    font-size: 14px;
 }
 section h2 {
     text-align: justify;
+    font-size: 20;
 }
 /* Styling the sections */
 section {
     max-width: 600px;
     border: 10px solid green;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
 }
 ul {
     text-align: justify;
+    list-style: square;
 }
