@@ -1,29 +1,41 @@
-Group 2: CN Special Forces
+﻿Group 2: CN Special Forces
+
 
 Members : San Yi, John Thekveli, Joseph Thekveli, Nathan Bailey
 
+
 Links
-Website Link: https://mad743.github.io/CN-Special-Force/
-Repository: https://github.com/MAD743/CN-Special-Force
+* Website Link: https://mad743.github.io/CN-Special-Force/
+* Repository: https://github.com/MAD743/CN-Special-Force
+
+
 
 
 Setup Process
-Create a new Github repository that all members can access as collaborators.
-Organize/create the website w/ HTML & CSS
-Commit the HTML, CSS, and Java files to the repository
-Set up the Github Pages, publishing the website based on the repository.
+1. Create a new Github repository that all members can access as collaborators.
+2. Organize/create the website w/ HTML & CSS
+3. Commit the HTML and CSS files to the repository
+4. Set up the Github Pages, publishing the website based on the repository.
+
+
 
 
 Challenges Faced:
-No significant challenge was faced, but minor issues existed
-The addition of a member caused an unknown connection error (recreated a new repository with a different setting to solve the issue)
-Setting up the GitHub page loaded too long (only initially)
+* No significant challenge was faced, but minor issues existed
+* The addition of a member caused an unknown connection error (recreated a new repository with a different setting to solve the issue)
+* Setting up the GitHub page loaded too long (only initially)
+
+
 
 
 Networking Principles/Protocols Applied:
-Internet Protocol(IP): 185.199.110.153
+* Internet Protocol(IP): 185.199.110.153
+   * This protocol uses our website’s IP address for routing and addressing the data packets of our website to the Github Pages server.
 
-HTTPS: https://mad743.github.io/CN-Special-Force/
 
-DNS: none
-DNS is only required if we use a custom domain. However, our site is currently accessed using GitHub’s subdomain (github.io), which is already managed by GitHub’s DNS system. Since we didn’t register a custom domain (paid), we don’t have any DNS records.
+* HTTPS: https://mad743.github.io/CN-Special-Force/
+   * HTTPS utilizes encryption to keep the connections to our website secure.
+
+
+* DNS: https://mad743.github.io/CN-Special-Force/
+* DNS is applied to our website by translating its domain name into an IP address that allows web browser users to access our website with an easy-to-remember domain name rather than a complicated IP address.

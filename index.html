@@ -5,33 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CN Special Forces Website</title>
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Security: Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com;">
+    
+    <!-- Performance: Google Analytics Integration -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'YOUR_TRACKING_ID');
+    </script>
 </head>
 <body>
     <header>
         <h1>CN Special Forces Project Website</h1>
     </header>
-    <img src = "dog_computer.jpg" alt = "Dog using computer image. Credits to cookiethepom on Unsplash." width = "300" height="300">
+    
+    <!-- Optimized Image Loading -->
+    <img src="dog_computer.jpg" alt="Dog using computer image. Credits to cookiethepom on Unsplash." width="300" height="300" loading="lazy">
+    
     <div class="container">
         <h1>Welcome to our website!</h1>
         <p>Members: San Yi, John Thekveli, Joseph Thekveli, Nathan Bailey</p>
     </div>
-    <section class = "networking-concepts">
+    
+    <section class="networking-concepts">
         <h2><i>Networking Concepts Used in the Creation of This Website</i></h2>
         <ul>
-            <li>Github uses <b>DNS</b> to translate the domain name of our site into an IP address that computers can connect to.</li>
-            <li>The IP address associated with our website is a <b>hosting IP address</b> which belongs the server that is hosting many Github Pages, including our page.</li>
+            <li>GitHub uses <b>DNS</b> to translate the domain name of our site into an IP address that computers can connect to.</li>
+            <li>The IP address associated with our website is a <b>hosting IP address</b> which belongs to the server that is hosting many GitHub Pages, including our page.</li>
             <li>Our website uses the <b>HTTPS protocol</b>, which encrypts the messages it sends and ensures secure communication between the client and the server.</li>
         </ul>
     </section>
 
-    <section class = "website-technologies">
+    <section class="website-technologies">
         <h2><i>Technologies Used to Build This Website</i></h2>
         <ul>
-            <li><b>Github Pages</b> provides free hosting for our website.</li>
+            <li><b>GitHub Pages</b> provides free hosting for our website.</li>
             <li><b>HTML</b> was used to build the foundation of our website.</li>
             <li><b>CSS</b> was used to help design the visuals and styles of the website.</li>
         </ul>
     </section>
-    
 </body>
 </html>
